@@ -26,25 +26,28 @@ from config import Config
 REPLY_MESSAGE=Config.REPLY_MESSAGE
 buttons = [
     [
-        InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
+          InlineKeyboardButton("🕊 How To Use Me 🕊", callback_data="help"),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('Updates 📣', url='https://t.me/searchit00'),
+                InlineKeyboardButton('Support ⚡', url='https://t.me/mwklinks')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),       
+                InlineKeyboardButton('Developer 👼', url='https://t.me/Elonmusk_010'),
+                InlineKeyboardButton('Movies 🎬', url='https://t.me/searchit_group')
+                ],[
+                InlineKeyboardButton('👨‍💻 Create Own Bot 👨‍💻', url='https://github.com/AUTOBOTS00/mwk-musics'),       
     ]
     ]
 
 @Client.on_inline_query()
 async def search(client, query):
     answers = []
-    if query.query == "KOUTHUKAM_LESHAM_KOODUTHALA":
+    if query.query == "KOUTHUKAM_LESHAM_KOODUTHALA 😁":
         answers.append(
             InlineQueryResultPhoto(
                     title="do you wanna help huh?",
-                    thumb_url="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg",
-                    photo_url="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg",
-                    caption=(f"{REPLY_MESSAGE}\n\n**Powered By** [ __@MwKLinks | @RedbullFED__ ]"),
+                    thumb_url="https://telegra.ph/file/3e2ff9e7a3b1d102f64f5.jpg",
+                    photo_url="https://telegra.ph/file/3e2ff9e7a3b1d102f64f5.jpg",
+                    caption=(f"{REPLY_MESSAGE}\n\n**Powered By** [ __ @searchit00 __"),
                     reply_markup=InlineKeyboardMarkup(buttons)
                     )
             )
