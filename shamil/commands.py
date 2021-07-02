@@ -31,7 +31,7 @@ CHAT=Config.CHAT
 
 HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n• Iam A Bot Project by MwK MusicS\n• I Can Manage Group VC's\n\n• Hit /help to know about available commands.</b>"
 HELP = """
-🎧 <b>I Can Play Musics On VoiceChats 🤪</b>
+🎧 <b>I Can Play Musics On VoiceChats 🤗</b>
 
 🎶 **Common Commands**:
 • `/song` __Download Song from youtube__
@@ -59,7 +59,7 @@ HELP = """
 • `/update` __Update Current Settings n Restarts the Bot__
 
 © Powered By 
-[ __@mwklinks | @redbullfed__ ]
+[ __ @searchit00 __ ]
 """
 
 
@@ -68,15 +68,15 @@ HELP = """
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton("❔ How To Use Me ❔", callback_data="help"),
+        InlineKeyboardButton("🕊 How To Use Me 🕊", callback_data="help"),
                 ],[
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('Updates 📣', url='https://t.me/searchit00'),
+                InlineKeyboardButton('Support ⚡', url='https://t.me/mwklinks')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('Developer 👼', url='https://t.me/Elonmusk_010'),
+                InlineKeyboardButton('Movies 🎬', url='https://t.me/searchit_group')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('👨‍💻 Create Own Bot 👨‍💻', url='https://github.com/AUTOBOTS00/mwk-musics'),
     ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -88,15 +88,15 @@ async def start(client, message):
 async def show_help(client, message):
     buttons = [
         [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('Updates 📣', url='https://t.me/searchit00'),
+                InlineKeyboardButton('Support ⚡', url='https://t.me/mwklinks')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('Developer 👼', url='https://t.me/Elonmusk_010'),
+                InlineKeyboardButton('Movies 🎬', url='https://t.me/searchit_group')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('👨‍💻 Create Own Bot 👨‍💻', url='https://github.com/AUTOBOTS00/mwk-musics'),
         ]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    await message.reply_photo(photo="https://telegra.ph/file/a3937c3ddc19bb3300d89.jpg", caption=HELP, reply_markup=reply_markup)
+    await message.reply_photo(photo="https://telegra.ph/file/3e2ff9e7a3b1d102f64f5.jpg", caption=HELP, reply_markup=reply_markup)
     await message.delete()
