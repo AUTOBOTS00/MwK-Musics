@@ -29,7 +29,7 @@ U=USERNAME
 CHAT=Config.CHAT
 
 
-HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n• Iam A Music Bot by [ᴇʟᴏɴᴍᴜꜱᴋ](https://telegram.dog/Elonmusk_010)\n• I Can Manage Group VC's\n\n• Hit /help to know about available commands 😎.</b>"
+HOME_TEXT = "<b>Helo, [{}](tg://user?id={})\n\n• Iam A Music Bot by [ELONMUSK](https://telegram.dog/Elonmusk_010)\n\n• I Can Manage Group VC's\n\n• Hit /help to know about available commands 😎.</b>"
 HELP = """
 🎧 <b>I Can Play Musics On VoiceChats🤗</b>
 
