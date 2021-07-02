@@ -25,7 +25,7 @@ playlist=Config.playlist
 
 HELP = """
 
-🎧 <b>I Can Play Music On VoiceChats 🤪</b>
+🎧 <b>I Can Play Music On VoiceChats 🤗</b>
 
 🎶 **Common Commands**:
 • `/c`  __Show current playing song__
@@ -52,7 +52,7 @@ HELP = """
 • `/update` __Update Current Settings n Restarts the Bot__
 
 © Powered By 
-[ __@mwklinks | @redbullfed__ ]
+[ __ @searchit00 __ ]
 """
 
 
@@ -76,11 +76,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Replay", callback_data="rp"),
-                            InlineKeyboardButton("Pause", callback_data="ps")
+                            InlineKeyboardButton("Replay 🔁", callback_data="rp"),
+                            InlineKeyboardButton("Pause ▶️", callback_data="ps")
                         ],[
-                            InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url="https://t.me/mwksongs")
+                            InlineKeyboardButton("Skip ⏩", callback_data="sk"),
+                            InlineKeyboardButton("Movies 🎬", url="https://t.me/searchit_group") 
                         ]
                     ]
                 )
@@ -99,11 +99,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Replay", callback_data="rp"),
-                            InlineKeyboardButton("Resume", callback_data="rs")
+                            InlineKeyboardButton("Replay 🔁", callback_data="rp"),
+                            InlineKeyboardButton("Pause ▶️", callback_data="ps")
                         ],[
-                            InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url='https://t.me/mwksongs')
+                            InlineKeyboardButton("Skip ⏩", callback_data="sk"),
+                            InlineKeyboardButton("Movies 🎬", url="https://t.me/searchit_group") 
                         ],
                     ]
                 )
@@ -123,11 +123,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("Replay", callback_data="rp"),
-                            InlineKeyboardButton("Pause", callback_data="ps")
+                            InlineKeyboardButton("Replay 🔁", callback_data="rp"),
+                            InlineKeyboardButton("Pause ▶️", callback_data="ps")
                         ],[
-                            InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url="https://t.me/mwksongs") 
+                            InlineKeyboardButton("Skip ⏩", callback_data="sk"),
+                            InlineKeyboardButton("Movies 🎬", url="https://t.me/searchit_group") 
                         ],
                     ]
                 )
@@ -147,11 +147,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Replay", callback_data="rp"),
-                            InlineKeyboardButton("Pause", callback_data="ps")
+                        InlineKeyboardButton("Replay 🔁", callback_data="rp"),
+                            InlineKeyboardButton("Pause ▶️", callback_data="ps")
                         ],[
-                            InlineKeyboardButton("Skip", callback_data="sk"),
-                            InlineKeyboardButton("Musics", url="https://t.me/mwksongs")
+                            InlineKeyboardButton("Skip ⏩", callback_data="sk"),
+                            InlineKeyboardButton("MOVIES 🎬", url="https://t.me/searchit00")
                             
                     ],
                 ]
@@ -162,13 +162,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton('📢 Updates', url='https://t.me/mwklinks'),
-                InlineKeyboardButton('💬 Support', url='https://t.me/redbullfed')
+                InlineKeyboardButton('Updates 📣', url='https://t.me/searchit00'),
+                InlineKeyboardButton('Support ⚡', url='https://t.me/mwklinks')
                 ],[
-                InlineKeyboardButton('🤖 Developer', url='https://t.me/shamilnelli'),
-                InlineKeyboardButton('🎧 Songs', url='https://t.me/mwksongs')
+                InlineKeyboardButton('Developer 👼', url='https://t.me/Elonmusk_010'),
+                InlineKeyboardButton('Movies 🎬', url='https://t.me/searchit_group')
                 ],[
-                InlineKeyboardButton('📜 Source Code 📜', url='https://github.com/shamilhabeebnelli/mwk-musics'),
+                InlineKeyboardButton('👨‍💻 Create Own Bot 👨‍💻', url='https://github.com/AUTOBOTS00/mwk-musics'),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
