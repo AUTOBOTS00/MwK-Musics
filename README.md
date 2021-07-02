@@ -13,13 +13,13 @@ License -> https://github.com/shamilhabeebnelli/MwK-Musics/blob/master/LICENSE
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/shamilhabeebnelli/mwk-musics)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AUTOBOTS00/mwk-musics)
 
 
 ### Deploy to VPS
 
 ```sh
-git clone https://github.com/shamilhabeebnelli/MwK-Musics
+git clone https://github.com/AUTOBOTS00/MwK-Musics
 cd MwK-Musics
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
@@ -62,6 +62,7 @@ python3 main.py
 ### Credits
 
 ```
+• Shamilnelli 
 • callsmusic
 • Inuka
 • Subinps
@@ -70,4 +71,4 @@ python3 main.py
 ```
 #### Support
 
-Connect Me On [Telegram](https://telegram.dog/shamilnelli)
+Connect Me On [Telegram](https://telegram.dog/Elonmusk_010)
