@@ -78,7 +78,7 @@ def a(client, message):
         m.delete()
         message.delete()
     except Exception as e:
-        m.edit('**Sᴇᴇᴍꜱ Lɪᴋᴇ Aɴ Eʀʀᴏʀ Oᴄᴄᴜʀᴇᴅ 🥶 Report This @redbullfed!!**')
+        m.edit('**Sᴇᴇᴍꜱ Lɪᴋᴇ Aɴ Eʀʀᴏʀ Oᴄᴄᴜʀᴇᴅ 😅 Report This @Since_l999_Official !!**')
         print(e)
     try:
         os.remove(audio_file)
